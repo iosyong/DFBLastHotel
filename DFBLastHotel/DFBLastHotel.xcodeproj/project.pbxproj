@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4149D9CF176EF7F9CACC4745 /* Pods_DFBLastHotel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBD79858773B24EDCAA219D /* Pods_DFBLastHotel.framework */; };
 		A73E93E61D17E22B0032374E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E93E51D17E22A0032374E /* main.m */; };
 		A73E93E91D17E22B0032374E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E93E81D17E22B0032374E /* AppDelegate.m */; };
 		A73E93EC1D17E22B0032374E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E93EB1D17E22B0032374E /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		A73E93F41D17E22B0032374E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73E93F21D17E22B0032374E /* LaunchScreen.storyboard */; };
 		A73E93FF1D17E22B0032374E /* DFBLastHotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E93FE1D17E22B0032374E /* DFBLastHotelTests.m */; };
 		A73E940A1D17E22B0032374E /* DFBLastHotelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E94091D17E22B0032374E /* DFBLastHotelUITests.m */; };
-		B502175A24F09F00271A5561 /* Pods_DFBLastHotel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B98B17289156A49A4426C3 /* Pods_DFBLastHotel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A9C38B8E9EAB7311B365471 /* Pods-DFBLastHotel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBLastHotel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFBLastHotel/Pods-DFBLastHotel.debug.xcconfig"; sourceTree = "<group>"; };
-		7B06074B4C1760E28571C7A1 /* Pods-DFBLastHotel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBLastHotel.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFBLastHotel/Pods-DFBLastHotel.release.xcconfig"; sourceTree = "<group>"; };
+		91214967E633E3E46AE39E28 /* Pods-DFBLastHotel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBLastHotel.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFBLastHotel/Pods-DFBLastHotel.release.xcconfig"; sourceTree = "<group>"; };
 		A73E93E11D17E22A0032374E /* DFBLastHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFBLastHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73E93E51D17E22A0032374E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A73E93E71D17E22B0032374E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,7 +53,8 @@
 		A73E94051D17E22B0032374E /* DFBLastHotelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBLastHotelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73E94091D17E22B0032374E /* DFBLastHotelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBLastHotelUITests.m; sourceTree = "<group>"; };
 		A73E940B1D17E22B0032374E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6B98B17289156A49A4426C3 /* Pods_DFBLastHotel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFBLastHotel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA44E8EACB9E263192EB9023 /* Pods-DFBLastHotel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBLastHotel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFBLastHotel/Pods-DFBLastHotel.debug.xcconfig"; sourceTree = "<group>"; };
+		EBBD79858773B24EDCAA219D /* Pods_DFBLastHotel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFBLastHotel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B502175A24F09F00271A5561 /* Pods_DFBLastHotel.framework in Frameworks */,
+				4149D9CF176EF7F9CACC4745 /* Pods_DFBLastHotel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,13 +83,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04F6F3832B35E2CD236C8E87 /* Pods */ = {
+		02857F5A2576E14A00F5091C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A9C38B8E9EAB7311B365471 /* Pods-DFBLastHotel.debug.xcconfig */,
-				7B06074B4C1760E28571C7A1 /* Pods-DFBLastHotel.release.xcconfig */,
+				EBBD79858773B24EDCAA219D /* Pods_DFBLastHotel.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A73E93D81D17E22A0032374E = {
@@ -99,8 +98,8 @@
 				A73E93FD1D17E22B0032374E /* DFBLastHotelTests */,
 				A73E94081D17E22B0032374E /* DFBLastHotelUITests */,
 				A73E93E21D17E22A0032374E /* Products */,
-				04F6F3832B35E2CD236C8E87 /* Pods */,
-				B47E8889388EE5F221C36DED /* Frameworks */,
+				B7C489EC94CCC388EAED2D59 /* Pods */,
+				02857F5A2576E14A00F5091C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,12 +155,13 @@
 			path = DFBLastHotelUITests;
 			sourceTree = "<group>";
 		};
-		B47E8889388EE5F221C36DED /* Frameworks */ = {
+		B7C489EC94CCC388EAED2D59 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F6B98B17289156A49A4426C3 /* Pods_DFBLastHotel.framework */,
+				EA44E8EACB9E263192EB9023 /* Pods-DFBLastHotel.debug.xcconfig */,
+				91214967E633E3E46AE39E28 /* Pods-DFBLastHotel.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A73E940E1D17E22B0032374E /* Build configuration list for PBXNativeTarget "DFBLastHotel" */;
 			buildPhases = (
-				1ABF38691D2953391A4BD9EC /* 📦 Check Pods Manifest.lock */,
+				AD0565E83C00FB698E6ED3B6 /* 📦 Check Pods Manifest.lock */,
 				A73E93DD1D17E22A0032374E /* Sources */,
 				A73E93DE1D17E22A0032374E /* Frameworks */,
 				A73E93DF1D17E22A0032374E /* Resources */,
-				8DB63BBF2CF2383C1BB28C20 /* 📦 Embed Pods Frameworks */,
-				E21F0E3637583324740CE446 /* 📦 Copy Pods Resources */,
+				EFE9B2EE370EFAC0CB703D0E /* 📦 Embed Pods Frameworks */,
+				13990E7CC08815F9F6295EF9 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,7 +293,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1ABF38691D2953391A4BD9EC /* 📦 Check Pods Manifest.lock */ = {
+		13990E7CC08815F9F6295EF9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFBLastHotel/Pods-DFBLastHotel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0565E83C00FB698E6ED3B6 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,7 +323,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8DB63BBF2CF2383C1BB28C20 /* 📦 Embed Pods Frameworks */ = {
+		EFE9B2EE370EFAC0CB703D0E /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,21 +336,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFBLastHotel/Pods-DFBLastHotel-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E21F0E3637583324740CE446 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFBLastHotel/Pods-DFBLastHotel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -486,7 +486,7 @@
 		};
 		A73E940F1D17E22B0032374E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A9C38B8E9EAB7311B365471 /* Pods-DFBLastHotel.debug.xcconfig */;
+			baseConfigurationReference = EA44E8EACB9E263192EB9023 /* Pods-DFBLastHotel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DFBLastHotel/Info.plist;
@@ -499,7 +499,7 @@
 		};
 		A73E94101D17E22B0032374E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B06074B4C1760E28571C7A1 /* Pods-DFBLastHotel.release.xcconfig */;
+			baseConfigurationReference = 91214967E633E3E46AE39E28 /* Pods-DFBLastHotel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DFBLastHotel/Info.plist;
