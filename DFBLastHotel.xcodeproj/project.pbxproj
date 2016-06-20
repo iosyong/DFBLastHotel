@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73E93E61D17E22B0032374E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E93E51D17E22A0032374E /* main.m */; };
+		A73E93E91D17E22B0032374E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E93E81D17E22B0032374E /* AppDelegate.m */; };
+		A73E93EC1D17E22B0032374E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E93EB1D17E22B0032374E /* ViewController.m */; };
+		A73E93EF1D17E22B0032374E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73E93ED1D17E22B0032374E /* Main.storyboard */; };
+		A73E93F11D17E22B0032374E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73E93F01D17E22B0032374E /* Assets.xcassets */; };
+		A73E93F41D17E22B0032374E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73E93F21D17E22B0032374E /* LaunchScreen.storyboard */; };
+		A73E93FF1D17E22B0032374E /* DFBLastHotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E93FE1D17E22B0032374E /* DFBLastHotelTests.m */; };
+		A73E940A1D17E22B0032374E /* DFBLastHotelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E94091D17E22B0032374E /* DFBLastHotelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A73E93FB1D17E22B0032374E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73E93D91D17E22A0032374E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73E93E01D17E22A0032374E;
+			remoteInfo = DFBLastHotel;
+		};
+		A73E94061D17E22B0032374E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73E93D91D17E22A0032374E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73E93E01D17E22A0032374E;
+			remoteInfo = DFBLastHotel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A73E93E11D17E22A0032374E /* DFBLastHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFBLastHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73E93E51D17E22A0032374E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A73E93E71D17E22B0032374E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A73E93E81D17E22B0032374E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A73E93EA1D17E22B0032374E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A73E93EB1D17E22B0032374E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A73E93EE1D17E22B0032374E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A73E93F01D17E22B0032374E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A73E93F31D17E22B0032374E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A73E93F51D17E22B0032374E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73E93FA1D17E22B0032374E /* DFBLastHotelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBLastHotelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73E93FE1D17E22B0032374E /* DFBLastHotelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBLastHotelTests.m; sourceTree = "<group>"; };
+		A73E94001D17E22B0032374E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73E94051D17E22B0032374E /* DFBLastHotelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFBLastHotelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73E94091D17E22B0032374E /* DFBLastHotelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBLastHotelUITests.m; sourceTree = "<group>"; };
+		A73E940B1D17E22B0032374E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73E93DE1D17E22A0032374E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73E93F71D17E22B0032374E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73E94021D17E22B0032374E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73E93D81D17E22A0032374E = {
+			isa = PBXGroup;
+			children = (
+				A73E93E31D17E22A0032374E /* DFBLastHotel */,
+				A73E93FD1D17E22B0032374E /* DFBLastHotelTests */,
+				A73E94081D17E22B0032374E /* DFBLastHotelUITests */,
+				A73E93E21D17E22A0032374E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73E93E21D17E22A0032374E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73E93E11D17E22A0032374E /* DFBLastHotel.app */,
+				A73E93FA1D17E22B0032374E /* DFBLastHotelTests.xctest */,
+				A73E94051D17E22B0032374E /* DFBLastHotelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73E93E31D17E22A0032374E /* DFBLastHotel */ = {
+			isa = PBXGroup;
+			children = (
+				A73E93E71D17E22B0032374E /* AppDelegate.h */,
+				A73E93E81D17E22B0032374E /* AppDelegate.m */,
+				A73E93EA1D17E22B0032374E /* ViewController.h */,
+				A73E93EB1D17E22B0032374E /* ViewController.m */,
+				A73E93ED1D17E22B0032374E /* Main.storyboard */,
+				A73E93F01D17E22B0032374E /* Assets.xcassets */,
+				A73E93F21D17E22B0032374E /* LaunchScreen.storyboard */,
+				A73E93F51D17E22B0032374E /* Info.plist */,
+				A73E93E41D17E22A0032374E /* Supporting Files */,
+			);
+			path = DFBLastHotel;
+			sourceTree = "<group>";
+		};
+		A73E93E41D17E22A0032374E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73E93E51D17E22A0032374E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A73E93FD1D17E22B0032374E /* DFBLastHotelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A73E93FE1D17E22B0032374E /* DFBLastHotelTests.m */,
+				A73E94001D17E22B0032374E /* Info.plist */,
+			);
+			path = DFBLastHotelTests;
+			sourceTree = "<group>";
+		};
+		A73E94081D17E22B0032374E /* DFBLastHotelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A73E94091D17E22B0032374E /* DFBLastHotelUITests.m */,
+				A73E940B1D17E22B0032374E /* Info.plist */,
+			);
+			path = DFBLastHotelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73E93E01D17E22A0032374E /* DFBLastHotel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73E940E1D17E22B0032374E /* Build configuration list for PBXNativeTarget "DFBLastHotel" */;
+			buildPhases = (
+				A73E93DD1D17E22A0032374E /* Sources */,
+				A73E93DE1D17E22A0032374E /* Frameworks */,
+				A73E93DF1D17E22A0032374E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFBLastHotel;
+			productName = DFBLastHotel;
+			productReference = A73E93E11D17E22A0032374E /* DFBLastHotel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A73E93F91D17E22B0032374E /* DFBLastHotelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73E94111D17E22B0032374E /* Build configuration list for PBXNativeTarget "DFBLastHotelTests" */;
+			buildPhases = (
+				A73E93F61D17E22B0032374E /* Sources */,
+				A73E93F71D17E22B0032374E /* Frameworks */,
+				A73E93F81D17E22B0032374E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73E93FC1D17E22B0032374E /* PBXTargetDependency */,
+			);
+			name = DFBLastHotelTests;
+			productName = DFBLastHotelTests;
+			productReference = A73E93FA1D17E22B0032374E /* DFBLastHotelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A73E94041D17E22B0032374E /* DFBLastHotelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73E94141D17E22B0032374E /* Build configuration list for PBXNativeTarget "DFBLastHotelUITests" */;
+			buildPhases = (
+				A73E94011D17E22B0032374E /* Sources */,
+				A73E94021D17E22B0032374E /* Frameworks */,
+				A73E94031D17E22B0032374E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73E94071D17E22B0032374E /* PBXTargetDependency */,
+			);
+			name = DFBLastHotelUITests;
+			productName = DFBLastHotelUITests;
+			productReference = A73E94051D17E22B0032374E /* DFBLastHotelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73E93D91D17E22A0032374E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "dfb－yong";
+				TargetAttributes = {
+					A73E93E01D17E22A0032374E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A73E93F91D17E22B0032374E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A73E93E01D17E22A0032374E;
+					};
+					A73E94041D17E22B0032374E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A73E93E01D17E22A0032374E;
+					};
+				};
+			};
+			buildConfigurationList = A73E93DC1D17E22A0032374E /* Build configuration list for PBXProject "DFBLastHotel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A73E93D81D17E22A0032374E;
+			productRefGroup = A73E93E21D17E22A0032374E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73E93E01D17E22A0032374E /* DFBLastHotel */,
+				A73E93F91D17E22B0032374E /* DFBLastHotelTests */,
+				A73E94041D17E22B0032374E /* DFBLastHotelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73E93DF1D17E22A0032374E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73E93F41D17E22B0032374E /* LaunchScreen.storyboard in Resources */,
+				A73E93F11D17E22B0032374E /* Assets.xcassets in Resources */,
+				A73E93EF1D17E22B0032374E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73E93F81D17E22B0032374E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73E94031D17E22B0032374E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73E93DD1D17E22A0032374E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73E93EC1D17E22B0032374E /* ViewController.m in Sources */,
+				A73E93E91D17E22B0032374E /* AppDelegate.m in Sources */,
+				A73E93E61D17E22B0032374E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73E93F61D17E22B0032374E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73E93FF1D17E22B0032374E /* DFBLastHotelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73E94011D17E22B0032374E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73E940A1D17E22B0032374E /* DFBLastHotelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A73E93FC1D17E22B0032374E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73E93E01D17E22A0032374E /* DFBLastHotel */;
+			targetProxy = A73E93FB1D17E22B0032374E /* PBXContainerItemProxy */;
+		};
+		A73E94071D17E22B0032374E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73E93E01D17E22A0032374E /* DFBLastHotel */;
+			targetProxy = A73E94061D17E22B0032374E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A73E93ED1D17E22B0032374E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73E93EE1D17E22B0032374E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A73E93F21D17E22B0032374E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73E93F31D17E22B0032374E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73E940C1D17E22B0032374E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A73E940D1D17E22B0032374E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A73E940F1D17E22B0032374E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFBLastHotel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yong.DFBLastHotel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A73E94101D17E22B0032374E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFBLastHotel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yong.DFBLastHotel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A73E94121D17E22B0032374E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFBLastHotelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yong.DFBLastHotelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFBLastHotel.app/DFBLastHotel";
+			};
+			name = Debug;
+		};
+		A73E94131D17E22B0032374E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFBLastHotelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yong.DFBLastHotelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFBLastHotel.app/DFBLastHotel";
+			};
+			name = Release;
+		};
+		A73E94151D17E22B0032374E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFBLastHotelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yong.DFBLastHotelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFBLastHotel;
+			};
+			name = Debug;
+		};
+		A73E94161D17E22B0032374E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFBLastHotelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yong.DFBLastHotelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFBLastHotel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73E93DC1D17E22A0032374E /* Build configuration list for PBXProject "DFBLastHotel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73E940C1D17E22B0032374E /* Debug */,
+				A73E940D1D17E22B0032374E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73E940E1D17E22B0032374E /* Build configuration list for PBXNativeTarget "DFBLastHotel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73E940F1D17E22B0032374E /* Debug */,
+				A73E94101D17E22B0032374E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A73E94111D17E22B0032374E /* Build configuration list for PBXNativeTarget "DFBLastHotelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73E94121D17E22B0032374E /* Debug */,
+				A73E94131D17E22B0032374E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A73E94141D17E22B0032374E /* Build configuration list for PBXNativeTarget "DFBLastHotelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73E94151D17E22B0032374E /* Debug */,
+				A73E94161D17E22B0032374E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73E93D91D17E22A0032374E /* Project object */;
+}
